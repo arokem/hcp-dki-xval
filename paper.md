@@ -52,8 +52,8 @@ description of the scanning protocol has been previously published
 [@Sotiropoulos2013-ww]. Briefly: dMRI scans conducted by the HCP are
 pulsed-gradient spin echo measurements conducted in 270 diffusion-weighted
 volumes with 90 directions in each of three b-values: 1,000, 2,000 and 3,000
-$$s/mm^2$$. Data were acquired at a nominal resolution of 1.25 by 1.25 by 1.25
-$$mm^3$$.
+$s/mm^2$. Data were acquired at a nominal resolution of 1.25 by 1.25 by 1.25
+$mm^3$.
 
 Preprocessed data for the S900 release were provided by the HCP through the
 Amazon Web Services (AWS) Simple Storage Service (S3)
@@ -74,7 +74,7 @@ Q is a quadratic form:
 
 (@eq-dti-qform) $\mathbf{D} = \begin{pmatrix} \sigma_{xx} & \sigma_{xy} & \sigma_{xz} \\ \sigma_{yx} & \sigma_{yy} & \sigma_{yz} \\ \sigma_{zx} & \sigma_{zy} & \sigma_{zz} \\ \end{pmatrix}$
 
-and $$sigma_ij$$ are free parameters. Because of the directional symmetry of
+and $sigma_ij$ are free parameters. Because of the directional symmetry of
 diffusion, variance in $xy$ is identical to the variance in $yx$. Therefore,
 there are only 6 free parameters in this model, for each voxel.
 
@@ -98,12 +98,11 @@ there are only 15 in this model, for each voxel.
 
 ## Results
 
-(@fig-histogram) ![alt text](fig/histogram_cod_dki_dti.png)
+![*Figure 1*: Caption, caption](fig/histogram_cod_dki_dti.png)
 
-(@fig-scatter) ![alt text](fig/cod_dti_dki.png )
+![*Figure 2*: Caption, caption](fig/cod_dti_dki.png )
 
-(@fig-scatter) ![alt text](fig/dti_1000_dki.png )
+![*Figure 3*: Caption, caption](fig/dti_1000_dki.png )
 
-As you can see in Figure (@fig-histogram) XXX
 
 ## References
